@@ -51,6 +51,10 @@ public class U5W3D3Application {
 		Book book = new Book("Random Book Title", 10.99, List.of(author1, author2), List.of(sec1, sec2, sec3, sec4));
 
 		System.out.println("Book '" + book.getName() + "' has " + book.getNumberOfPages() + " pages.");
+		book.print();
+		page3.print();
+		sub2.print();
+		sec4.print();
 
 		System.out.println();
 		System.out.println("==== EXERCISE 3 ====");
